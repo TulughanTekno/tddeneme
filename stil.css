@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+}
+.nav{
+    background-color: crimson;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-size-adjust: 1%;
+}
+.nav:first-child{
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: cyan;
+    padding: 1%;
+    margin-top: 1%;
+
+}
+a:hover{
+transition: 0.8s;
+color:whitesmoke;
+}
+.bolum{
+    margin: 3%;
+
+    
+}
+.image{
+    margin-right: 3%;
+    max-height: 325px;
+
+}
