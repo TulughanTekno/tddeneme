@@ -39,8 +39,11 @@ color:whitesmoke;
     
 }
 .image{
-    margin-right: 2%;
-    margin-left: 3%;
-    max-height: 325px;
-
+    margin-right: 1%;
+    margin-left: 1%;
+    max-height: 290px;
+    max-width: 440px;
+}
+audio{
+    margin: 1%;
 }
