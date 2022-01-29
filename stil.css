@@ -5,13 +5,13 @@
     
 }
 body{
-    background-color: brown;
+    background-color:#ee826d;
     background-size: cover;
     background-repeat: no-repeat;
     width: 1920px;
 }
 .nav{
-    background-color: crimson;
+    background-color: #f6675a;
     color: cyan;
     display: flex;
     align-items: center;
