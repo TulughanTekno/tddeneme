@@ -56,7 +56,16 @@ nav.navbar {
 	}
 }
 
-nav.navbar a {
+nav.navbar > .orta > a {
+	margin-bottom: 2vh;
+	text-decoration: none;
+	color: var(--link);
+	border: 3px solid #444744;
+	border-radius: 10px;
+	
+}
+
+nav.navbar > .alt > a {
 	margin-bottom: 2vh;
 	text-decoration: none;
 	color: var(--link);
