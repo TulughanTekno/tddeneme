@@ -146,9 +146,9 @@ img {
 	border-radius: 10px;
 }
 
-/* bunu gizlemeyi bırak */
 audio {
-	display: none;
+	width: 150px;
+	height: 35px;
 }
 
 .ses {
@@ -158,3 +158,5 @@ audio {
 	border: 3px solid #fff;
 	border-radius: 20%;
 }
+
+
