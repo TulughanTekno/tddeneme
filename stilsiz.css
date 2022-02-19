@@ -16,10 +16,11 @@ body {
 }
 
 :root {
-	--nav-arkaplan: rgb(57, 180, 98);
-	--arkaplan: rgb(77, 202, 175);
-	--nav-arkaplan-alt: rgb(112, 221, 148);
-	--link: #444744;
+	--nav-arkaplan: #2d7ceb;
+	--arkaplan: #89c1f5;
+	--nav-arkaplan-alt: #9c6eff;
+	--link: #fdcbff;
+	--ara-bolge: #3A9BF5
 }
 
 .erik {
@@ -56,22 +57,17 @@ nav.navbar {
 	}
 }
 
-nav.navbar > .orta > a {
+nav.navbar a {
 	margin-bottom: 2vh;
 	text-decoration: none;
 	color: var(--link);
-	border: 3px solid #444744;
+	border: 3px solid --nav-arkaplan;
 	border-radius: 10px;
 	
 }
-
-nav.navbar > .alt > a {
-	margin-bottom: 2vh;
-	text-decoration: none;
-	color: var(--link);
-	border: 3px solid #444744;
-	border-radius: 10px;
-	
+nav.navbar a:hover{
+	transition: 0.8s;
+	color:whitesmoke;
 }
 
 nav.navbar a:last-of-type {
@@ -90,7 +86,8 @@ nav.navbar > div {
 
 nav.navbar > .alt {
 	background-color: var(--nav-arkaplan-alt);
-	border: 3px solid #fff;
+	border: 3px solid --nav-arkaplan-alt;
+	border-radius: 10px;
 }
 
 .grup {
@@ -98,33 +95,48 @@ nav.navbar > .alt {
 	flex-direction: row;
 	height: min-content;
 	margin: 12px;
+	margin-bottom: 18px;
 }
 
 .grup > div {
-	background-color: #fff;
+	background-color: var(--ara-bolge);
 	display: flex;
 	flex-direction: column;
-	padding: 4px 8px;
+	padding: 10px 10px;
 	font-size: 120px;
 	text-align: center;
-	margin: 0 4px;
+	margin-left: 6px;
+	margin-right: 6px;
 	margin-bottom: 5px;
-	border: 3px solid #444744;
+	border: 3px solid --arkaplan;
 	border-radius: 10px;
 }
 
 .grup > .nice > .har {
-	border: 3px solid #444744;
+	border: 3px solid --ara-bolge;
 	border-radius: 10px;
 	margin-bottom: 4px;
+	background-color: #fff;
+}
+
+.grup > .nice > .hara {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	font-size: 95px;
+	padding-top: 17px;
+	padding-bottom: 17px;
 }
 
 .grup > .nezle > .alt {
-	border: 3px solid #444744;
+	border: 3px solid --ara-bolge;
 	border-radius: 10px;
+	margin-top: 4px;
 	margin-bottom: 4px;
 	font-size: 24px;
 	width: 150px;
+	background-color: #fff;
 }
 
 img {
@@ -142,5 +154,7 @@ audio {
 .ses {
 	width: 150px;
 	height: 35px;
-	background-color: var(--nav-arkaplan);
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 20%;
 }
