@@ -56,7 +56,9 @@ nav.navbar {
 		width: calc(100% - 150px);
 	}
 }
-
+.sd{
+	font-size: 20px;
+}
 nav.navbar a {
 	margin-bottom: 2vh;
 	text-decoration: none;
@@ -157,6 +159,7 @@ audio {
 	background-color: #fff;
 	border: 3px solid #fff;
 	border-radius: 20%;
+	display: none;
 }
 
 
