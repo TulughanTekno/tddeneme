@@ -162,4 +162,42 @@ audio {
 	display: none;
 }
 
+.umlaute{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+}
 
+.grupa {
+	display: flex;
+	flex-direction: row;
+	height: min-content;
+	margin: 12px;
+	margin-bottom: 18px;
+}
+
+h1{
+	color: red;
+}
+
+.baslık_umlaute{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+
+
+
+
+}
