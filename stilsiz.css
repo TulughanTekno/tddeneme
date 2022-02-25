@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: var(--nav-arkaplan);
+	display: flex;
+	flex-direction: row;
+	font-family: 'Fira Sans', 'Hahmlet', 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--nav-arkaplan: #2d7ceb;
+	--arkaplan: #89c1f5;
+	--nav-arkaplan-alt: #9c6eff;
+	--link: #fdcbff;
+	--ara-bolge: #3A9BF5
+}
+
+.erik {
+	background-color: var(--arkaplan);
+	width: 87%;
+	min-height: 100vh;
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav.navbar {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	min-width: 150px;
+	width: 13%;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--nav-arkaplan);
+	padding: 20px;
+	overflow-wrap: normal;
+	font-size: 24px;
+}
+
+@media screen and (max-width: 1155px) {
+	.erik {
+		width: calc(100% - 150px);
+	}
+}
+.sd{
+	font-size: 20px;
+}
+nav.navbar a {
+	margin-bottom: 2vh;
+	text-decoration: none;
+	color: var(--link);
+	border: 3px solid --nav-arkaplan;
+	border-radius: 10px;
+	
+}
+nav.navbar a:hover{
+	transition: 0.8s;
+	color:whitesmoke;
+}
+
+nav.navbar a:last-of-type {
+	margin-bottom: 0px;
+}
+
+nav.navbar > div {
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: normal;
+	align-items: center;
+	width: 100%;
+	text-decoration-line: none;
+	text-align: center;
+}
+
+nav.navbar > .alt {
+	background-color: var(--nav-arkaplan-alt);
+	border: 3px solid --nav-arkaplan-alt;
+	border-radius: 10px;
+}
+
+.grup {
+	display: flex;
+	flex-direction: row;
+	height: min-content;
+	margin: 12px;
+	margin-bottom: 18px;
+}
+
+.grup > div {
+	background-color: var(--ara-bolge);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+	font-size: 120px;
+	text-align: center;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	border: 3px solid --arkaplan;
+	border-radius: 10px;
+}
+
+.grup > .nice > .har {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-bottom: 4px;
+	background-color: #fff;
+}
+
+.grup > .nice > .hara {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	font-size: 95px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+.grup > .nezle > .alt {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 24px;
+	width: 150px;
+	background-color: #fff;
+}
+
+img {
+	width: 150px;
+	height: 115px;
+	border: 1px solid #444744;
+	border-radius: 10px;
+}
+
+audio {
+	width: 150px;
+	height: 35px;
+}
+
+.ses {
+	width: 150px;
+	height: 35px;
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 20%;
+	display: none;
+}
+
+.umlaute{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+}
+
+.grupa {
+	display: flex;
+	flex-direction: row;
+	height: min-content;
+	margin: 12px;
+	margin-bottom: 18px;
+}
+
+h1{
+	color: red;
+}
+
+.baslık_umlaute{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+
+
+
+
+}
