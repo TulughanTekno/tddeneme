@@ -196,8 +196,9 @@ h1{
 	justify-content: center;
 	border: 3px solid --ara-bolge;
 	border-radius: 50px;
+}
 
-
-
-
+nav.navbar a.sec{
+	background-color: #1c4f97 ;
+	color: #e6a084 ;
 }

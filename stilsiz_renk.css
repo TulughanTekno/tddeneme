@@ -166,3 +166,8 @@ audio {
 	width: 250px;
 	height: 35px;
 }
+
+nav.navbar a.sec{
+	background-color: #1c4f97 ;
+	color: #e6a084 ;
+}
