@@ -36,7 +36,7 @@ body {
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	
 }
 
 nav.navbar {
@@ -179,19 +179,19 @@ audio {
 	position: absolute;
 	z-index: 2;
 }
-
-.a {
-	left: 13%;
-	top: 12%
+@media (min-height:777px) {
+	.erik{
+		justify-content: center;
+	}
 }
-
-.b {
-	left: 22%;
-	top: 17%
+@media (max-height: 777px){
+	.a{ margin-left: 70px ;
+		margin-top: 50px;}
+	.aile{left: 9%;}
+	.b{margin-left: 120px ;
+		margin-top: 75px;
+	}
 }
-
-
-
 
 nav.navbar a.sec{
 	background-color: #1c4f97 ;
