@@ -195,7 +195,7 @@ audio {
 	.c{left: 409px ;
 		margin-top: 140px;
 	}
-	.d{ left: 480px ;
+	.d{ left: 474px ;
 		margin-top: 100px;
 	}
 	.e{ left: 372px ;
@@ -227,7 +227,7 @@ audio {
 	}
 
 	.erik > div{
-		height: 125px;
+		height: 110px;
 		width: 100px;
 	}
 
@@ -242,7 +242,8 @@ audio {
 		width: 85px;
 	}
 	.erik > div.d{
-		width: 50px;
+		width: 80px;
+		height: 100px;
 	}
 	.erik > div.e{
 		width: 50px;
