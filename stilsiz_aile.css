@@ -179,12 +179,107 @@ audio {
 	position: absolute;
 	z-index: 2;
 }
-@media (min-height:777px) {
+@media (min-width:777px) {
 	.erik{
 		justify-content: center;
 	}
 }
-@media (max-height: 777px){
+
+
+@media (max-width: 1024px) and (min-width:778px) {
+	.a{ left: 130px ;
+		margin-top: 80px;
+	}
+	.b{ left: 200px ;
+		margin-top: 100px;
+	}
+	.c{left: 275px ;
+		margin-top: 105px;
+	}
+	.d{ left: 320px ;
+		margin-top: 75px;
+	}
+	.e{ left: 372px ;
+		margin-top: 80px;
+	}
+	.f{left: 420px ;
+		margin-top: 105px;
+	}
+	.g{margin-left: 119px ;
+		margin-top: 52px;
+	}
+	.h{margin-left: 208px ;
+		margin-top: 120px;
+	}
+	.j{margin-left: 320px ;
+		margin-top: 120px;
+	}
+	.k{margin-left: 420px ;
+		margin-top: 50px;
+	}
+	.l{ left: 265px ;
+		margin-top: 320px;
+	}
+	.m{ left: 363px ;
+		margin-top: 310px;
+	}
+	.n{ left: 390px ;
+		margin-top: 320px;
+	}
+	.erik > div.b{
+		height: 75px;
+	}
+	.erik > div.c{
+		width: 55px;
+	}
+	.erik > div.d{
+		width: 50px;
+	}
+	.erik > div.e{
+		width: 50px;
+		height: 75px;
+	}
+	.erik > div.f{
+		width: 50px;
+	}
+	.erik > div.g{
+		width: 50px;
+		height: 75px;
+	}
+	.erik > div.h{
+		width: 60px;
+	}
+	.erik > div.j{
+		width: 60px;
+	}
+	.erik > div.k{
+		width: 50px;
+		height: 75px;
+	}
+	.erik > div.l{
+		width: 60px;
+		height: 100px;
+	}
+	.erik > div.m{
+		width: 60px;
+		height: 100px;
+	}
+	.erik > div.n{
+		width: 60px;
+		height: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 777px){
 	.a{ margin-left: 70px ;
 		margin-top: 50px;}
 	.aile{left: 9%;}
