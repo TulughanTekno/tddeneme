@@ -7,7 +7,7 @@ body {
 	min-height: 567px;
 	padding: 0;
 	margin: 0;
-	background-color: var(--nav-arkaplan);
+	background-color: var(--arkaplan);
 	display: flex;
 	flex-direction: row;
 	font-family: 'Fira Sans', 'Hahmlet', 'Noto Sans', sans-serif;
@@ -185,6 +185,100 @@ audio {
 	}
 }
 
+@media (max-width: 2000px) and (min-width:1444px) {
+	.a{ left: 280px ;
+		margin-top: 140px;
+	}
+	.b{ left: 400px ;
+		margin-top: 190px;
+	}
+	.c{left: 555px ;
+		margin-top: 222px;
+	}
+	.d{ left: 650px ;
+		margin-top: 135px;
+	}
+	.e{ left: 750px ;
+		margin-top: 165px;
+	}
+	.f{ left: 850px ;
+		margin-top: 190px;
+	}
+	.g{ left: 960px ;
+		margin-top: 120px;
+	}
+	.h{ left: 1040px ;
+		margin-top: 220px;
+	}
+	.j{ left: 1160px ;
+		margin-top: 220px;
+	}
+	.k{ left: 1250px ;
+		margin-top: 110px;
+	}
+	.l{ left: 530px ;
+		margin-top: 655px;
+	}
+	.m{ left: 735px ;
+		margin-top: 625px;
+	}
+	.n{ left: 900px ;
+		margin-top: 655px;
+	}
+
+	.erik > div{
+		height: 150px;
+		width: 125px;
+	}
+
+	.aile{
+		max-width: 1720px;
+		max-height: 1000px;
+	}
+
+	.erik > div.b{
+		width: 140px;
+	}
+	
+	.erik > div.c{
+		width: 115px;
+		height: 130px;
+	}
+
+	.erik > div.d{
+		width: 115px;
+	}
+	.erik > div.e{
+		width: 120px;
+	}
+	.erik > div.f{
+		width: 115px;
+	}
+	.erik > div.g{
+		width: 110px;
+	}
+	.erik > div.h{
+		width: 115px;
+	}
+	.erik > div.j{
+		width: 115px;
+	}
+	.erik > div.k{
+		width: 115px;
+	}
+	.erik > div.l{
+		height: 170px;
+	}
+
+	.erik > div.m{
+		height: 210px;
+	}
+	.erik > div.n{
+
+		height: 170px;
+	}
+} 
+
 @media (max-width: 1444px) and (min-width:1025px) {
 	.a{ left: 200px ;
 		margin-top: 100px;
@@ -316,8 +410,8 @@ audio {
 	.m{ left: 363px ;
 		margin-top: 310px;
 	}
-	.n{ left: 390px ;
-		margin-top: 320px;
+	.n{ left: 440px ;
+		margin-top: 310px;
 	}
 	.erik > div.b{
 		height: 75px;
