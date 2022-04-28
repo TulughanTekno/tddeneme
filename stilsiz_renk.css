@@ -114,6 +114,16 @@ nav.navbar > .alt {
 	border-radius: 10px;
 }
 
+.grup > .nezlex > .alt {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 20px;
+	width: 150px;
+	background-color: #fff;
+}
+
 .grup > .nezle > .alt {
 	border: 3px solid --ara-bolge;
 	border-radius: 10px;
