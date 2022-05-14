@@ -25,18 +25,20 @@ body {
 	--ara-bolge: #3A9BF5
 }
 
+.bölge{
+	width: calc(100% - 150px);
+}
+
 .erik {
 	background-color: var(--arkaplan);
 	min-width: 554px;
 	min-height: 567px;
-	height: 100vh;
-	width: calc(100% - 150px);
+	height: 80%;
 	position: relative;
-	left: 150px;
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	
+	right: 0px;
 }
 
 nav.navbar {
@@ -90,78 +92,25 @@ nav.navbar > .alt {
 	border-radius: 10px;
 }
 
-.grup {
-	display: flex;
-	flex-direction: row;
-	height: min-content;
-	margin: 12px;
-	margin-bottom: 18px;
-}
-
-.grup > div {
-	background-color: var(--ara-bolge);
-	display: flex;
-	flex-direction: column;
-	padding: 10px 10px;
-	font-size: 120px;
-	text-align: center;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 5px;
-	border: 3px solid --arkaplan;
-	border-radius: 10px;
-}
-
-.grup > .nice > .har {
-	border: 3px solid --ara-bolge;
-	border-radius: 10px;
-	margin-bottom: 4px;
-	background-color: #fff;
-}
-
-.grup > .nice > .hara {
-	border: 3px solid --ara-bolge;
-	border-radius: 10px;
-	margin-bottom: 4px;
-	background-color: #fff;
-	font-size: 95px;
-	padding-top: 17px;
-	padding-bottom: 17px;
-}
-
-.grup > .nezle > .alt {
-	border: 3px solid --ara-bolge;
-	border-radius: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	font-size: 24px;
-	width: 150px;
-	background-color: #fff;
-}
-
 img {
+	width: 165px;
+	height: 130px;
+	border: 1px solid #444744;
+	border-radius: 10px;
+}
+
+nav.navbar > img {
 	width: 150px;
 	height: 115px;
 	border: 1px solid #444744;
 	border-radius: 10px;
+
 }
 
-.aile {
-	height: min-content;
-	width: 80%;
-	border: 1px solid #444744;
-	border-radius: 10px;
-	max-width: 1024px;
-	max-height: 704px;
-	position: absolute;
-	min-height: 352px;
-	min-width: 512px;
-	z-index: 1;
-}
 
 audio {
-	width: 150px;
-	height: 35px;
+	width: 165px;
+	height: 45px;
 }
 
 .ses {
@@ -173,12 +122,143 @@ audio {
 	display: none;
 }
 
-.erik div{
+.grossfamilie_foto{
+	justify-content: center;
+	height: fit-content;
+	width: 99%;
+	position: relative;
+	left: 150px;
+	padding-left: 20px;
+}
+
+.erik > div{
 	height: 10%;
 	width: 8%;
 	position: absolute;
-	z-index: 2;
+	z-index: 1;
 }
+
+.kleinfamilie {
+	background-color: var(--arkaplan);
+	left: 150px;
+	width: 99%;
+	position: relative;
+	right: 0;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.kleinfamilie > div {
+	background-color: var(--ara-bolge);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+	text-align: center;
+	margin: 10px;
+	border: 3px solid --arkaplan;
+	border-radius: 10px;
+}
+
+.kleinfamilie > .nezle > .alt {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 28px;
+	width: 165px;
+	background-color: #fff;
+}
+
+.salt{
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 25px;
+	width: 165px;
+	background-color: #fff;
+}
+.kleinfamilie > .baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
+}
+
+
+.grossfamilie {
+	background-color: var(--arkaplan);
+	width: 99%;
+	position: relative;
+	right: 0;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grossfamilie > div {
+	background-color: var(--ara-bolge);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+	text-align: center;
+	margin: 10px;
+	border: 3px solid --arkaplan;
+	border-radius: 10px;
+}
+
+.grossfamilie > .nezle > .alt {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 28px;
+	width: 165px;
+	background-color: #fff;
+}
+.grossfamilie > .baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 97.7%;
+	position: flex;
+	padding: 20px;
+	margin-left: 6px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
+}
+
+
+
+
+
+.aile {
+	height: min-content;
+	width: 80%;
+	border: 1px solid #444744;
+	border-radius: 10px;
+	max-width: 1024px;
+	max-height: 704px;
+	position: relative;
+	min-height: 352px;
+	min-width: 512px;
+	z-index: 0;
+}
+
+
+
 @media (min-width:777px) {
 	.erik{
 		justify-content: center;
@@ -213,7 +293,7 @@ audio {
 	.j{ left: 1160px ;
 		margin-top: 220px;
 	}
-	.k{ left: 1250px ;
+	.k{ left: 1260px ;
 		margin-top: 110px;
 	}
 	.l{ left: 530px ;
@@ -457,15 +537,6 @@ audio {
 	}
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 777px){
 	.a{ margin-left: 70px ;
 		margin-top: 50px;}
@@ -506,6 +577,10 @@ audio {
 	.n{margin-left: 290px ;
 		margin-top: 235px;
 	}
+}
+
+h1{
+	color: red;
 }
 
 nav.navbar a.sec{
