@@ -136,12 +136,70 @@ audio {
 	width: 80%;
 	border: 1px solid #444744;
 	border-radius: 10px;
-	max-width: 1024px;
+	max-width: 704px;
 	max-height: 704px;
 	position: relative;
 	min-height: 352px;
 	min-width: 512px;
 	z-index: 0;
+	
+}
+
+.aylar {
+	background-color: rgb(66 161 234 / 47%);
+	width: 80%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+.aylar > div {
+	background-color: var(--ara-bolge);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+	text-align: center;
+	margin: 10px;
+	border: 3px solid --arkaplan;
+	border-radius: 10px;
+}
+
+.aylar > .nezle > .alt {
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 28px;
+	width: 165px;
+	background-color: #fff;
+}
+
+.salt{
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 25px;
+	width: 165px;
+	background-color: #fff;
+}
+.aylar > .baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
 }
 
 
