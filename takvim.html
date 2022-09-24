@@ -29,8 +29,17 @@
 	</nav>
 <div class="bölge">
 	<div class="erik">
+	<div class="mevsim">
 		<img class="poto" src="mevsimler.png">
-	
+		<div class="a" onclick="getElementById('demo').innerHTML=Date()""></div>
+
+		<div class="b" onclick="playAudio('ailetumce/büyükannetümce.mp3')"></div>
+
+		<div class="c" onclick="playAudio('ailetumce/büyükbabatümce.mp3')"></div>
+
+		<div class="d" onclick="playAudio('ailetumce/halatümce.mp3')"></div>
+		<div class="kutu"></div>
+	</div>
 	<div class="aylar">
 		<div class="baslık"><h1> Die Monate </h1></div>
 		<div class="nezle">
@@ -109,6 +118,13 @@
 	</div>
 </div>
 </div>
-	<script src="script.js"></script>
+	<script>
+		function ayaz(){
+    document.getElementById("kutu").innerHTML="der Frühling";
+}
+
+	var yazıcı=document.getElementById("a");
+	yazıcı.onclick=ayaz;
+	</script>
 </body>
 </html>

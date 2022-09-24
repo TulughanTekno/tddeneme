@@ -201,8 +201,16 @@ audio {
 	border-radius: 50px;
 	
 }
-
-
+.mevsim > div{
+	height: 10%;
+	width: 8%;
+	position: absolute;
+	z-index: 1;
+}
+.kutu{
+	height: 100px;
+	width: 100px;
+}
 
 @media (min-width:777px) {
 	.erik{
