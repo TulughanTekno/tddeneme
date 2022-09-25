@@ -5,8 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wörterbond</title>
+	<script src="script_takvim.js" defer ></script>
 	<link rel="icon" href="LOGO.jpeg" type="image/x-icon">
-	<link rel="stylesheet" href="stilsiz_korper.css">
+	<link rel="stylesheet" href="stilsiz_takvim.css">
 </head>
 <body>
 	<nav class="navbar">
@@ -29,102 +30,102 @@
 	</nav>
 <div class="bölge">
 	<div class="erik">
-	<div class="mevsim">
+		<div class="mevsim">
 		<img class="poto" src="mevsimler.png">
-		<div class="a" onclick="getElementById('demo').innerHTML=Date()""></div>
-
-		<div class="b" onclick="playAudio('ailetumce/büyükannetümce.mp3')"></div>
-
-		<div class="c" onclick="playAudio('ailetumce/büyükbabatümce.mp3')"></div>
-
-		<div class="d" onclick="playAudio('ailetumce/halatümce.mp3')"></div>
-		<div class="kutu"></div>
-	</div>
-	<div class="aylar">
+		<div class="ms_a" onclick="msa()"></div>
+		<div class="ms_b" onclick="msb()"></div>
+		<div class="ms_c" onclick="msc()"></div>
+		<div class="ms_d" onclick="msd()"></div>
+		</div>
+		<div class="kutu">
+		<div class="kutustili">
+			<div id="demo"></div>
+		</div>
+		</div>
+		
+		<div class="aylar">
 		<div class="baslık"><h1> Die Monate </h1></div>
 		<div class="nezle">
 			<img src="aylar/ocak.PNG" alt="">
-			<span class="alt">Der Vater</span>
+			<span class="alt">Januar</span>
 			<audio controls src="aileses/baba.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/subat.PNG" alt="">
-			<span class="alt">Die Mutter</span>
+			<span class="alt">Februar</span>
 			<audio controls src="aileses/anne.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/mart.PNG" alt="">
-			<span class="alt">İch</span>
+			<span class="alt">März</span>
 			<audio controls src="aileses/ben.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/nisan.PNG" alt="">
-			<span class="alt">Der Bruder</span>
+			<span class="alt">April</span>
 			<audio controls src="aileses/bruder.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/mayıs.PNG" alt="">
-			<span class="salt">Die Schwester</span>
+			<span class="salt">Mai</span>
 			<audio controls src="aileses/schwester.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/haziran.PNG" alt="">
-			<span class="alt">İch</span>
+			<span class="alt">Juni</span>
 			<audio controls src="aileses/ben.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/temmuz.PNG" alt="">
-			<span class="alt">Der Bruder</span>
+			<span class="alt">Juli</span>
 			<audio controls src="aileses/bruder.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/agustos.PNG" alt="">
-			<span class="salt">Die Schwester</span>
+			<span class="salt">August</span>
 			<audio controls src="aileses/schwester.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/eylul.PNG" alt="">
-			<span class="alt">İch</span>
+			<span class="alt">September</span>
 			<audio controls src="aileses/ben.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/ekim.PNG" alt="">
-			<span class="alt">Der Bruder</span>
+			<span class="alt">Oktober</span>
 			<audio controls src="aileses/bruder.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/kasim.PNG" alt="">
-			<span class="salt">Die Schwester</span>
+			<span class="salt">November</span>
 			<audio controls src="aileses/schwester.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
 		<div class="nezle">
 			<img src="aylar/aralık.PNG" alt="">
-			<span class="salt">Die Schwester</span>
+			<span class="salt">Dezember</span>
 			<audio controls src="aileses/schwester.mp3">Aa</audio>
 			<div class="ses"></div>
 		</div>
-	</div>
+		</div>
+		<div class="tage">
+			<div class="baslık"><h1> Der Tage </h1></div>
+			<div class="div_tage">
+				<img class="tage_poto" src="günler3.png">
+			</div>
+		</div>
 	</div>
 </div>
 </div>
-	<script>
-		function ayaz(){
-    document.getElementById("kutu").innerHTML="der Frühling";
-}
-
-	var yazıcı=document.getElementById("a");
-	yazıcı.onclick=ayaz;
-	</script>
 </body>
 </html>
