@@ -25,12 +25,9 @@ body {
 	--ara-bolge: #3A9BF5
 }
 
-.bölge{
+.erik {
 	width: calc(100% - 150px);
 	margin-left: 150px;
-}
-
-.erik {
 	background-color: var(--arkaplan);
 	min-width: 554px;
 	min-height: 567px;
