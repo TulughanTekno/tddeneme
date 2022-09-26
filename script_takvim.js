@@ -27,3 +27,8 @@ function msc() {
     document.getElementById("demo").innerHTML = 'der Winter';
   }
 
+
+
+  function playAudio(url) {
+    new Audio(url).play();
+  }

@@ -311,6 +311,34 @@ audio {
 	margin-left: 255px;
 	margin-top: 265px;
 }
+.div_tage > div{
+	margin-left:35px;
+	height: 60px;
+	width: 350px;
+	z-index: 1;
+}
+.tag_a{
+	margin-top:25px;
+}
+.tag_b{
+	margin-top:100px;
+}
+.tag_c{
+	margin-top:175px;
+}
+.tag_d{
+	margin-top:250px;
+}
+.tag_e{
+	margin-top:325px;
+}
+.tag_f{
+	margin-top:400px;
+}
+.tag_g{
+	margin-top:465px;
+}
+
 @media (min-width:777px) {
 	.erik{
 		justify-content: center;
