@@ -133,16 +133,16 @@ audio {
 
 .poto {
 	height: min-content;
-	width: 80%;
+	width: 70%;
 	border: 1px solid #444744;
 	border-radius: 10px;
-	max-width: 704px;
-	max-height: 704px;
 	position: relative;
-	min-height: 352px;
-	min-width: 512px;
+	min-height: 256px;
+	min-width: 256px;
 	z-index: 0;
-	
+	margin-top: 10px;
+	max-width: 1150px;
+	max-height: 1000px;
 }
 
 .aylar {
@@ -189,11 +189,6 @@ audio {
 	background-color: #fff;
 }
 
-
-.kutu{
-	height: 100px;
-	width: 100px;
-}
 .tage{
 	background-color: rgb(66 161 234 / 47%);
 	width: 80%;
@@ -231,7 +226,7 @@ audio {
 
 .mevsim{
 	background-color: rgb(66 161 234 / 47%);
-	width: 90%;
+	width: 80%;
 	position: relative;
 	nav-left: calc(30%-150px);
 	padding: 10px;
@@ -239,10 +234,11 @@ audio {
 	flex-wrap: wrap;
 	border-radius: 0px;
 	margin-top: 20px;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 50px 50px 0px 0px;
+	justify-content: center;
 }
 
-.mevsim > div{
+.mevsim > span > div{
 	height: 45%;
 	width: 45%;
 	position: absolute;
@@ -273,43 +269,49 @@ audio {
 }
 .kutu{
 	background-color: rgb(66 161 234 / 47%);
-	width: 90%;
+	width: 80%;
 	position: flex;
 	padding: 5px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	border: 3px solid --ara-bolge;
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 50px 50px;
+	height: 100px;
 	
 }
 .kutustili{
 	border: 3px solid --ara-bolge;
 	border-radius: 10px;
-	font-size: 40px;
-	width: 250px;
-	max-height: 75px;
+	font-size: 70px;
+	max-height: 81px;
 	background-color: #fff;
-	
+	justify-content: center;
 }
 .demo{
 	justify-content: center;
 }
+
+.ms_tık{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
 .ms_a{
-	margin-left: 15px;
-	margin-top: 15px;
+	margin-top: 4%;
+	margin-left: 4%;
 }
 .ms_b{
-	margin-left: 255px;
-	margin-top: 15px;
+	margin-top: 4%;
+	margin-left: 49%;
 }
 .ms_c{
-	margin-left: 15px;
-	margin-top: 265px;
+	margin-top: 41%;
+	margin-left: 4%;
 }
 .ms_d{
-	margin-left: 255px;
-	margin-top: 265px;
+	margin-top: 41%;
+	margin-left: 49%;
 }
 .div_tage > div{
 	margin-left:35px;

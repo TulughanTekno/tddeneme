@@ -20,11 +20,11 @@ function msb() {
 }
 
 function msc() {
-    document.getElementById("demo").innerHTML = 'der Herbst';
+    document.getElementById("demo").innerHTML = 'der Winter';
   }
   
   function msd() {
-    document.getElementById("demo").innerHTML = 'der Winter';
+    document.getElementById("demo").innerHTML = 'der Herbst';
   }
 
 
