@@ -22,7 +22,19 @@ body {
 	--link: #fdcbff;
 	--ara-bolge: #3A9BF5
 }
-
+.sayılar{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .erik {
 	background-color: var(--arkaplan);
 	width: 87%;

@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
+	min-width: 704px;
+	min-height: 567px;
 	padding: 0;
 	margin: 0;
-	background-color: var(--nav-arkaplan);
+	background-color: var(--arkaplan);
 	display: flex;
 	flex-direction: row;
 	font-family: 'Fira Sans', 'Hahmlet', 'Noto Sans', sans-serif;
@@ -22,29 +24,19 @@ body {
 	--link: #fdcbff;
 	--ara-bolge: #3A9BF5
 }
-.renkler{
-	background-color: rgb(66 161 234 / 47%);
-	width: 100%;
-	position: relative;
-	nav-left: calc(30%-150px);
-	padding: 20px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	border-radius: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+
 .erik {
+	width: calc(100% - 150px);
+	margin-left: 150px;
 	background-color: var(--arkaplan);
-	width: 87%;
-	min-height: 100vh;
-	position: absolute;
-	right: 0;
+	min-width: 554px;
+	min-height: 567px;
+	height: 80%;
+	position: relative;
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	right: 0px;
 }
 
 nav.navbar {
@@ -53,8 +45,7 @@ nav.navbar {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	min-width: 150px;
-	width: 13%;
+	width: 150px;
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--nav-arkaplan);
@@ -63,11 +54,6 @@ nav.navbar {
 	font-size: 24px;
 }
 
-@media screen and (max-width: 1155px) {
-	.erik {
-		width: calc(100% - 150px);
-	}
-}
 .sd{
 	font-size: 20px;
 }
@@ -104,63 +90,25 @@ nav.navbar > .alt {
 	border-radius: 10px;
 }
 
-.grup {
-	display: flex;
-	flex-direction: row;
-	height: min-content;
-	margin: 12px;
-	margin-bottom: 18px;
-}
-
-.grup > div {
-	background-color: var(--ara-bolge);
-	display: flex;
-	flex-direction: column;
-	padding: 10px 10px;
-	font-size: 100px;
-	text-align: center;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 5px;
-	border: 3px solid --arkaplan;
-	border-radius: 10px;
-}
-
-.grup > .nezlex > .alt {
-	border: 3px solid --ara-bolge;
-	border-radius: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	font-size: 20px;
-	width: 150px;
-	background-color: #fff;
-}
-
-.grup > .nezle > .alt {
-	border: 3px solid --ara-bolge;
-	border-radius: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	font-size: 24px;
-	width: 150px;
-	background-color: #fff;
-}
-
-.grup > .nezle > img {
-	background-color: #fff;
-}
-
 img {
-	width: 150px;
-	height: 121px;
-	margin-bottom: 4px;
+	width: 165px;
+	height: 130px;
 	border: 1px solid #444744;
 	border-radius: 10px;
 }
 
-audio {
+nav.navbar > img {
 	width: 150px;
-	height: 35px;
+	height: 115px;
+	border: 1px solid #444744;
+	border-radius: 10px;
+
+}
+
+
+audio {
+	width: 165px;
+	height: 45px;
 }
 
 .ses {
@@ -174,19 +122,74 @@ audio {
 
 
 
-.grup > .nezles > .alt {
-	border: 3px solid --ara-bolge;
+.poto {
+	height: min-content;
+	width: 75%;
+	border: 1px solid #444744;
 	border-radius: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	font-size: 24px;
-	width: 250px;
-	background-color: #fff;
+	position: relative;
+	z-index: 0;
+	
+}
+.poto > img{
+	aspect-ratio: 1.4545;
+}
+.baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
+}
+.parca{
+	background-color: rgb(66 161 234 / 47%);
+	width: 90%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 0px;
+	margin-top: 20px;
+	border-radius: 50px;
+	justify-content: center;
+}
+@media (min-width:777px) {
+	.erik{
+		justify-content: center;
+	}
 }
 
-.grup > .nezles > audio {
-	width: 250px;
-	height: 35px;
+@media (max-width: 2000px) and (min-width:1444px) {
+
+} 
+
+@media (max-width: 1444px) and (min-width:1025px) {
+
+} 
+
+
+@media (max-width: 1024px) and (min-width:778px) {
+
+}
+
+@media (max-width: 777px){
+
+}
+
+
+
+
+
+
+h1{
+	color: red;
 }
 
 nav.navbar a.sec{

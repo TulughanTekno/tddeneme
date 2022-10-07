@@ -139,8 +139,7 @@ audio {
 }
 
 .kleinfamilie {
-	background-color: var(--arkaplan);
-	left: 150px;
+	background-color: rgb(66 161 234 / 47%);
 	width: 99%;
 	position: relative;
 	right: 0;
@@ -148,6 +147,9 @@ audio {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .kleinfamilie > div {
@@ -196,7 +198,7 @@ audio {
 
 
 .grossfamilie {
-	background-color: var(--arkaplan);
+	background-color: rgb(66 161 234 / 47%);
 	width: 99%;
 	position: relative;
 	right: 0;
@@ -204,6 +206,7 @@ audio {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	border-radius: 50px;
 }
 
 .grossfamilie > div {
