@@ -300,17 +300,19 @@ audio {
 .ms_a{
 	margin-top: 4%;
 	margin-left: 4%;
+	z-index: 2;
 }
 .ms_b{
 	margin-top: 4%;
 	margin-left: 49%;
+	z-index: 2;
 }
 .ms_c{
-	margin-top: 31%;
+	margin-top: 35%;
 	margin-left: 4%;
 }
 .ms_d{
-	margin-top: 31%;
+	margin-top: 35%;
 	margin-left: 49%;
 }
 .div_tage > div{
