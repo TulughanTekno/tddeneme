@@ -32,9 +32,13 @@ body {
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 }
-
+.erik > div {
+	z-index: 1;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+}
 
 @media screen and (max-width: 1155px) {
 	.erik {

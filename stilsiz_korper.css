@@ -133,6 +133,18 @@ audio {
 	height: 100%;
 	width: 80%;
 }
+.y_tık{
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 80%;
+}
+.e_tık{
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 80%;
+}
 .poto {
 	height: min-content;
 	width: 80%;
@@ -217,6 +229,12 @@ audio {
 }
 
 .v_tık > div {
+	position: absolute;
+}
+.y_tık > div {
+	position: absolute;
+}
+.e_tık > div {
 	position: absolute;
 }
 .v_a{ /*saç*/
@@ -383,6 +401,160 @@ audio {
 
 
 
+
+
+.y_a{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_b{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_c{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_d{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_e{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_f{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_g{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_h{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_i{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_j{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.y_k{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+
+
+
+
+
+.e_a{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_b{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_c{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_d{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_e{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_fa{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_fb{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_fc{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_fd{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+.e_fe{
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
 
 
 
