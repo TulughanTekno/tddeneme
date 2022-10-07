@@ -40,54 +40,54 @@ const elementvn = document.getElementById("v_n");
 elementvn.addEventListener("click", vn);
 
 function va() {
-  document.getElementById("demo").innerHTML = 'der Frühling';
+  document.getElementById("demo_g").innerHTML = 'das Haar';
 }
 
 function vb() {
-  document.getElementById("demo").innerHTML = 'der Sommer';
+  document.getElementById("demo_g").innerHTML = 'der Sommer';
 }
 
 function vc() {
-    document.getElementById("demo").innerHTML = 'der Winter';
+    document.getElementById("demo_g").innerHTML = 'der Winter';
   }
   
 function vd() {
-    document.getElementById("demo").innerHTML = 'der Herbst';
+    document.getElementById("demo_g").innerHTML = 'der Herbst';
   }
 
 function ve() {
-    document.getElementById("demo").innerHTML = 'der Frühling';
+    document.getElementById("demo_g").innerHTML = 'die schulter';
   }
   
   function vf() {
-    document.getElementById("demo").innerHTML = 'der Sommer';
+    document.getElementById("demo_g").innerHTML = 'der Sommer';
   }
   
   function vg() {
-      document.getElementById("demo").innerHTML = 'der Winter';
+      document.getElementById("demo_g").innerHTML = 'der Winter';
     }
     
     function vh() {
-      document.getElementById("demo").innerHTML = 'der Herbst';
+      document.getElementById("demo_g").innerHTML = 'das Handgelenk';
     }
   
     function vi() {
-      document.getElementById("demo").innerHTML = 'der Frühling';
+      document.getElementById("demo_g").innerHTML = 'die Hand';
     }
     
     function vj() {
-      document.getElementById("demo").innerHTML = 'der Sommer';
+      document.getElementById("demo_g").innerHTML = 'der Sommer';
     }
     
     function vk() {
-        document.getElementById("demo").innerHTML = 'der Winter';
+        document.getElementById("demo_g").innerHTML = 'das Knie';
       }
       
       function vl() {
-        document.getElementById("demo").innerHTML = 'der Herbst';
+        document.getElementById("demo_g").innerHTML = 'das Fußgelenk';
       }
   function vn() {
-    document.getElementById("demo").innerHTML = 'der Frühling';
+    document.getElementById("demo_g").innerHTML = 'der Frühling';
  }
       
 
