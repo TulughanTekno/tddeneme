@@ -56,6 +56,8 @@ nav.navbar {
 
 .sd{
 	font-size: 20px;
+	background-color: #1c4f97 ;
+	color: #e6a084 ;
 }
 nav.navbar a {
 	margin-bottom: 2vh;
