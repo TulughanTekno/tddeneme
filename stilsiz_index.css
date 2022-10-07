@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: var(--nav-arkaplan);
+	display: flex;
+	flex-direction: row;
+	font-family: 'Fira Sans', 'Hahmlet', 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--nav-arkaplan: #2d7ceb;
+	--arkaplan: #89c1f5;
+	--nav-arkaplan-alt: #9c6eff;
+	--link: #fdcbff;
+	--ara-bolge: #3A9BF5
+}
+
+.erik {
+	background-color: var(--arkaplan);
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+@media screen and (max-width: 1155px) {
+	.erik {
+		width: calc(100% - 150px);
+	}
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+h1{
+	color: red;
+}

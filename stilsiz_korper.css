@@ -127,7 +127,12 @@ audio {
 	margin: 5%;
 }
 
-
+.v_tık{
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 80%;
+}
 .poto {
 	height: min-content;
 	width: 80%;
@@ -141,7 +146,27 @@ audio {
 	z-index: 0;
 	
 }
-
+.kutu{
+	background-color: rgb(66 161 234 / 47%);
+	width: 80%;
+	position: flex;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 0px 0px 50px 50px;
+	height: 100px;
+	
+}
+.kutustili{
+	border: 3px solid --ara-bolge;
+	border-radius: 10px;
+	font-size: 70px;
+	max-height: 81px;
+	background-color: #fff;
+	justify-content: center;
+}
 .baslık {
 	background-color: rgb(66 161 234 / 47%);
 	width: 100%;
@@ -155,7 +180,19 @@ audio {
 	border-radius: 50px;
 	
 }
-
+.parca{
+	background-color: rgb(66 161 234 / 47%);
+	width: 80%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 0px;
+	margin-top: 20px;
+	border-radius: 50px 50px 0px 0px;
+	justify-content: center;
+}
 @media (min-width:777px) {
 	.erik{
 		justify-content: center;
@@ -178,6 +215,182 @@ audio {
 @media (max-width: 777px){
 
 }
+
+.v_tık > div {
+	position: absolute;
+}
+.v_a{ /*saç*/
+ 	margin-top: 150px;
+	margin-left: 250px;
+	height: 35px;
+ 	width: 100px;
+	z-index: 2;
+}
+.v_b{/*alın*/
+	margin-top: 185px;
+	margin-left: 250px;
+	height: 25px;
+ 	width: 100px;
+	z-index: 2;
+}
+.v_c{/*ağız*/
+	margin-top: 240px;
+	margin-left: 275px;
+	height: 30px;
+ 	width: 30px;
+	z-index: 2;
+}
+.v_d{/*kafa*/
+	margin-top: 155px;
+	margin-left: 250px;
+	height: 110px;
+ 	width: 100px;
+	z-index: 1;
+}
+.v_el{/*omuz*/
+	margin-top: 255px;
+	margin-left: 130px;
+	height: 35px;
+ 	width: 130px;
+	z-index: 2;
+}
+.v_er{
+	margin-top: 235px;
+	margin-left: 330px;
+	height: 50px;
+ 	width: 115px;
+	z-index: 2;
+}
+.v_fl{/*dirsek*/
+	margin-top: 350px;
+	margin-left: 50px;
+	height: 75px;
+ 	width: 75px;
+	z-index: 2;
+}
+.v_fr{/*dirsek*/
+	margin-top: 250px;
+	margin-left: 525px;
+	height: 75px;
+ 	width: 75px;
+	z-index: 2;
+}
+.v_gl{/*kol*/
+	
+	margin-top: 250px;
+	margin-left: 50px;
+	height: 225px;
+	width: 175px;
+	z-index: 1;
+	
+}
+.v_gr{/*kol*/
+	
+	margin-top: 150px;
+	margin-left: 375px;
+	height: 175px;
+	width: 225px;
+	z-index: 1;
+	
+}
+.v_hl{/*bilek*/
+	
+		margin-top: 415px;
+		margin-left: 175px;
+		height: 35px;
+		 width: 35px;
+		z-index: 3;
+	
+}
+.v_hr{
+	margin-top: 175px;
+	margin-left: 455px;
+	height: 35px;
+	 width: 35px;
+	z-index: 3;
+}
+.v_il{/*el*/
+	margin-top: 420px;
+	margin-left: 170px;
+	height: 75px;
+ 	width: 60px;
+	z-index: 2;
+}
+.v_ir{/*el*/
+	margin-top: 170px;
+	margin-left: 410px;
+	height: 60px;
+ 	width: 75px;
+	z-index: 2;
+}
+.v_j{/*karın*/
+
+		margin-top: 400px;
+		margin-left: 215px;
+		height: 110px;
+		width: 150px;
+		z-index: 1;
+
+}
+.v_kl{/*diz kapağı*/
+	margin-top: 600px;
+	margin-left: 225px;
+	height: 75px;
+ 	width: 75px;
+	z-index: 2;
+}
+.v_kr{/*diz kapağı*/
+	margin-top: 520px;
+	margin-left: 420px;
+	height: 75px;
+ 	width: 75px;
+	z-index: 2;
+}
+.v_ll{/*ayak bileği*/
+	margin-top: 710px;
+	margin-left: 200px;
+	height: 40px;
+ 	width: 40px;
+	z-index: 2;
+}
+.v_lr{/*ayak bileği*/
+	margin-top: 650px;
+	margin-left: 410px;
+	height: 40px;
+ 	width: 40px;
+	z-index: 2;
+}
+.v_nl{/*ayak*/
+	margin-top: 720px;
+	margin-left: 200px;
+	height: 70px;
+ 	width: 65px;
+	z-index: 1;
+}
+.v_nr{/*ayak*/
+	margin-top: 675px;
+	margin-left: 400px;
+	height: 30px;
+ 	width: 100px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1{
 	color: red;

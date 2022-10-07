@@ -34,7 +34,19 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
+.harfler{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 nav.navbar {
 	display: flex;
 	flex-direction: column;
