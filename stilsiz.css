@@ -209,9 +209,23 @@ audio {
 }
 
 h1{
-	color: red;
+	color: var(--link);
+	border: 3px solid --nav-arkaplan;
+	border-radius: 10px;
+	font-size:60px;
 }
-
+.baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
+}
 .baslık_umlaute{
 	background-color: rgb(66 161 234 / 47%);
 	width: 100%;

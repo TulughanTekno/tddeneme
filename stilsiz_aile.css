@@ -581,11 +581,24 @@ audio {
 		margin-top: 235px;
 	}
 }
-
 h1{
-	color: red;
+	color: var(--link);
+	border: 3px solid --nav-arkaplan;
+	border-radius: 10px;
+	font-size:60px;
 }
-
+.baslık {
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: flex;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 3px solid --ara-bolge;
+	border-radius: 50px;
+	
+}
 nav.navbar a.sec{
 	background-color: #1c4f97 ;
 	color: #e6a084 ;
