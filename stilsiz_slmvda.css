@@ -126,12 +126,12 @@ audio {
 
 .poto {
 	height: min-content;
-	width: 75%;
+	width: 70%;
 	border: 1px solid #444744;
 	border-radius: 10px;
 	position: relative;
 	z-index: 0;
-	
+	margin-left: 15%;
 }
 .poto > img{
 	aspect-ratio: 1.4545;
@@ -160,7 +160,12 @@ audio {
 	border-radius: 0px;
 	margin-top: 20px;
 	border-radius: 50px;
-	justify-content: center;
+	
+}
+.parca > div {
+	position:absolute;
+	height: 800px;
+	width: 35%;
 }
 @media (min-width:777px) {
 	.erik{
@@ -185,8 +190,12 @@ audio {
 
 }
 
-
-
+.hallo , .tschüs , .schlaf{
+	margin-left: 15%;
+}
+.hi , .auf , .traum{
+	margin-left: 50%;
+}
 
 
 
