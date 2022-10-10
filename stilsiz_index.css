@@ -49,7 +49,7 @@ body {
 img{
 	height: 40%;
 	width: 40%;
-	margin-left: 10%;
+	margin-left: 30%;
 }
 
 
@@ -59,38 +59,38 @@ h1{
 }
 
 .a{
-	margin-left: 220px;
+	margin-left: 30%;
 	margin-top: 10px;
 }
 .b{
-	margin-left: 480px;
+	margin-left: 43%;
 	margin-top: 10px;
 }
 .c{
-	margin-left: 750px;
+	margin-left: 56%;
 	margin-top: 10px;
 }
 .d{
-	margin-left: 220px;
+	margin-left: 30%;
 	margin-top: 270px;
 }
 .e{
-	margin-left: 480px;
+	margin-left: 43%;
 	margin-top: 270px;
 }
 .f{
-	margin-left: 750px;
+	margin-left: 56%;
 	margin-top: 270px;
 }
 .g{
-	margin-left: 220px;
-	margin-top: 530px;
+	margin-left: 30%;
+	margin-top: 540px;
 }
 .h{
-	margin-left: 480px;
-	margin-top: 530px;
+	margin-left: 43%;
+	margin-top: 540px;
 }
 .j{
-	margin-left: 750px;
-	margin-top: 530px;
+	margin-left: 56%;
+	margin-top: 540px;
 }

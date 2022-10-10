@@ -44,27 +44,27 @@ function va() {
 }
 
 function vb() {
-  document.getElementById("demo_g").innerHTML = 'der Sommer';
+  document.getElementById("demo_g").innerHTML = 'der Stirn';
 }
 
 function vc() {
-    document.getElementById("demo_g").innerHTML = 'der Winter';
+    document.getElementById("demo_g").innerHTML = 'der Mund';
   }
   
 function vd() {
-    document.getElementById("demo_g").innerHTML = 'der Herbst';
+    document.getElementById("demo_g").innerHTML = 'der Kopft';
   }
 
 function ve() {
-    document.getElementById("demo_g").innerHTML = 'die schulter';
+    document.getElementById("demo_g").innerHTML = 'die Schulter';
   }
   
   function vf() {
-    document.getElementById("demo_g").innerHTML = 'der Sommer';
+    document.getElementById("demo_g").innerHTML = 'der Ellbogen';
   }
   
   function vg() {
-      document.getElementById("demo_g").innerHTML = 'der Winter';
+      document.getElementById("demo_g").innerHTML = 'der Arm';
     }
     
     function vh() {
@@ -76,7 +76,7 @@ function ve() {
     }
     
     function vj() {
-      document.getElementById("demo_g").innerHTML = 'der Sommer';
+      document.getElementById("demo_g").innerHTML = 'der Bauch';
     }
     
     function vk() {
@@ -87,7 +87,7 @@ function ve() {
         document.getElementById("demo_g").innerHTML = 'das Fußgelenk';
       }
   function vn() {
-    document.getElementById("demo_g").innerHTML = 'der Frühling';
+    document.getElementById("demo_g").innerHTML = 'der Fuß';
  }
       
 
