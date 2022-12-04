@@ -48,7 +48,8 @@ nav.navbar {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	width: 150px;
+	min-width: 150px;
+	width: 13%;
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--nav-arkaplan);
