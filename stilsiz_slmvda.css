@@ -26,8 +26,8 @@ body {
 }
 
 .erik {
-	width: calc(100% - 150px);
-	margin-left: 150px;
+	width: 83%;
+	margin-left: 17%;
 	background-color: var(--arkaplan);
 	min-width: 554px;
 	min-height: 567px;
