@@ -120,7 +120,7 @@ nav.navbar > .alt {
 	margin-top: 4px;
 	margin-bottom: 4px;
 	font-size: 20px;
-	width: 150px;
+	width: 175px;
 	background-color: #fff;
 }
 
@@ -130,7 +130,7 @@ nav.navbar > .alt {
 	margin-top: 4px;
 	margin-bottom: 4px;
 	font-size: 24px;
-	width: 150px;
+	width: 175px;
 	background-color: #fff;
 }
 
@@ -139,15 +139,15 @@ nav.navbar > .alt {
 }
 
 img {
-	width: 150px;
-	height: 121px;
+	width: 175px;
+	height: 140px;
 	margin-bottom: 4px;
 	border: 1px solid #444744;
 	border-radius: 10px;
 }
 
 audio {
-	width: 150px;
+	width: 175px;
 	height: 35px;
 }
 
