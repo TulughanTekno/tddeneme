@@ -108,20 +108,20 @@ nav.navbar > .alt {
 	display: flex;
 	flex-direction: row;
 	height: min-content;
-	margin: 12px;
-	margin-bottom: 18px;
+	margin: 10px;
+	margin-bottom: 12px;
 }
 
 .grup > div {
 	background-color: var(--ara-bolge);
 	display: flex;
 	flex-direction: column;
-	padding: 10px 10px;
+	padding: 8px 8px;
 	font-size: 120px;
 	text-align: center;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 4px;
 	border: 3px solid --arkaplan;
 	border-radius: 10px;
 }
@@ -139,8 +139,8 @@ nav.navbar > .alt {
 	margin-bottom: 4px;
 	background-color: #fff;
 	font-size: 95px;
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .grup > .nezle > .alt {
@@ -204,8 +204,8 @@ audio {
 	display: flex;
 	flex-direction: row;
 	height: min-content;
-	margin: 12px;
-	margin-bottom: 18px;
+	margin: 10px;
+	margin-bottom: 16px;
 }
 
 h1{
