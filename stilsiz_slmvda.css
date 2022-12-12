@@ -212,8 +212,11 @@ h1{
 	border-radius: 50px;
 	
 }
+.sec{
+	font-size: 20px;
+}
 nav.navbar a.sec{
 	background-color: #276ccc ;
 	color: #f0eba3 ;
-	font-size: 20px;
+	
 }
