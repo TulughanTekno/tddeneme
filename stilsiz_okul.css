@@ -22,7 +22,19 @@ body {
 	--link: #fdcbff;
 	--ara-bolge: #3A9BF5
 }
-
+.esyalar{
+	background-color: rgb(66 161 234 / 47%);
+	width: 100%;
+	position: relative;
+	nav-left: calc(30%-150px);
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .erik {
 	background-color: var(--arkaplan);
 	width: 87%;
@@ -178,8 +190,8 @@ audio {
 }
 
 nav.navbar a.sec{
-	background-color: #245497 ;
-	color: #f3efb1 ;
+	background-color: #276ccc ;
+	color: #f0eba3 ;
 }
 
 h1{
