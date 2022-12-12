@@ -365,8 +365,11 @@ audio {
 
 }
 
-@media (max-width: 777px){
+@media (max-width: 1024px){
+.erik{
+	margin-left: 0px;
 
+}
 }
 
 h1{
