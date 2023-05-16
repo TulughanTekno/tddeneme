@@ -26,6 +26,7 @@ body {
 .erik {
 	background-color: var(--arkaplan);
 	width: 100%;
+	max-height: 100%;
 	min-height: 100vh;
 	position: absolute;
 	right: 0;
@@ -35,21 +36,19 @@ body {
 }
 .erik > div {
 	z-index: 1;
-	height: 250px;
-	width: 250px;
+	height: min(25vh,25vw);
+	width: min(25vh,25vw);
 	position: absolute;
 }
 
-@media screen and (max-width: 1155px) {
-	.erik {
-		width: calc(100% - 150px);
-	}
-}
 
 img{
-	height: 40%;
-	width: 40%;
-	margin-left: 30%;
+	height: min(75vh,75vw);
+	width: min(75vh,75vw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 
@@ -57,40 +56,82 @@ img{
 h1{
 	color: red;
 }
-
+@media screen and (min-width: 3000px) and (min-height: 1900px ) {
+	
 .a{
-	margin-left: 30%;
-	margin-top: 10px;
+	margin-left: 27%;
+	margin-top: 7%;
 }
 .b{
-	margin-left: 43%;
-	margin-top: 10px;
+	margin-left: 42%;
+	margin-top: 7%;
 }
 .c{
-	margin-left: 56%;
-	margin-top: 10px;
+	margin-left: 57%;
+	margin-top: 7%;
 }
 .d{
-	margin-left: 30%;
-	margin-top: 270px;
+	margin-left: 27%;
+	margin-top: 22%;
 }
 .e{
-	margin-left: 43%;
-	margin-top: 270px;
+	margin-left: 42%;
+	margin-top: 22%;
 }
 .f{
-	margin-left: 56%;
-	margin-top: 270px;
+	margin-left: 57%;
+	margin-top: 22%;
 }
 .g{
-	margin-left: 30%;
-	margin-top: 540px;
+	margin-left: 27%;
+	margin-top: 37%;
 }
 .h{
-	margin-left: 43%;
-	margin-top: 540px;
+	margin-left: 42%;
+	margin-top: 37%;
 }
 .j{
-	margin-left: 56%;
-	margin-top: 540px;
+	margin-left: 57%;
+	margin-top: 37%;
 }
+}
+
+@media screen and (max-width: 450px) and (max-height: 950px ) {
+	
+	.a{
+		margin-left: 8vw;
+		margin-top: 31vh;
+	}
+	.b{
+		margin-left: 33vw;
+		margin-top: 31vh;
+	}
+	.c{
+		margin-left: 58vw;
+		margin-top: 31vh;
+	}
+	.d{
+		margin-left: 8vw;
+		margin-top: 42vh;
+	}
+	.e{
+		margin-left: 33vw;
+		margin-top: 42vh;
+	}
+	.f{
+		margin-left: 58vw;
+		margin-top: 42vh;
+	}
+	.g{
+		margin-left: 8vw;
+		margin-top: 54vh;
+	}
+	.h{
+		margin-left: 33vw;
+		margin-top: 54vh;
+	}
+	.j{
+		margin-left: 58vw;
+		margin-top: 54vh;
+	}
+	}
