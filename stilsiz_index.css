@@ -22,26 +22,40 @@ body {
 	--link: #fdcbff;
 	--ara-bolge: #3A9BF5
 }
-
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+  }
 .erik {
 	background-color: var(--arkaplan);
-	width: 100%;
-	max-height: 100%;
-	min-height: 100vh;
+	height: min(75vh,75vw);
+	width: min(75vh,75vw);
 	position: absolute;
-	right: 0;
-	padding: 20px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	flex-wrap: wrap;
+	grid-gap: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .erik > div {
-	z-index: 1;
-	height: min(25vh,25vw);
-	width: min(25vh,25vw);
-	position: absolute;
-}
-
+	background-color: transparent;
+	height: min(24vh,24vw);
+	width: min(24vh,24vw);
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 4;
+  }
 
 img{
 	height: min(75vh,75vw);
@@ -58,7 +72,7 @@ img{
 h1{
 	color: red;
 }
-@media screen and (min-width: 3000px) and (min-height: 1900px ) {
+/* @media screen and (min-width: 3000px) and (min-height: 1900px ) {
 	
 .a{
 	margin-left: 27%;
@@ -175,3 +189,4 @@ h1{
 		margin-top: 54vh;
 	}
 	}
+	*/
