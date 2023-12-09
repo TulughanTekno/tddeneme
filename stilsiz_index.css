@@ -31,8 +31,8 @@ body {
   }
 .erik {
 	background-color: var(--arkaplan);
-	height: min(90vh,90vw);
-	width: min(90vh,90vw);
+	height: 100vh;
+	width: 100vw;
 	position: absolute;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -45,8 +45,8 @@ body {
 }
 .erik > div {
 	background-color: transparent;
-	height: min(24vh,24vw);
-	width: min(24vh,24vw);
+	height: 33vh;
+	width:33vw;
 	text-align: center;
 	cursor: pointer;
 	user-select: none;
