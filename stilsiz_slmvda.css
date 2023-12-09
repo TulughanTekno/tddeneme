@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
-	min-width: 704px;
-	min-height: 567px;
 	padding: 0;
 	margin: 0;
 	background-color: var(--arkaplan);
@@ -26,11 +24,9 @@ body {
 }
 
 .erik {
-	width: 83%;
-	margin-left: 17%;
+	width: 83vw;
+	margin-left: 20vw;
 	background-color: var(--arkaplan);
-	min-width: 554px;
-	min-height: 567px;
 	height: 80%;
 	position: relative;
 	padding: 20px;
@@ -46,7 +42,7 @@ nav.navbar {
 	top: 0;
 	bottom: 0;
 	min-width: 150px;
-	width: 13%;
+	width: 13vw;
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--nav-arkaplan);
@@ -101,13 +97,10 @@ nav.navbar > img {
 	border-radius: 10px;
 
 }
-
-
 audio {
 	width: 165px;
 	height: 45px;
 }
-
 .ses {
 	width: 150px;
 	height: 35px;
@@ -116,9 +109,6 @@ audio {
 	border-radius: 20%;
 	display: none;
 }
-
-
-
 .poto {
 	height: min-content;
 	width: 90%;
@@ -133,10 +123,10 @@ audio {
 }
 .baslık {
 	background-color: rgb(66 161 234 / 47%);
-	width: 100%;
+	width: 100vw;
 	position: flex;
 	padding: 20px;
-
+	margin-top: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -146,7 +136,7 @@ audio {
 }
 .parca{
 	background-color: rgb(66 161 234 / 47%);
-	width: 90%;
+	width: 95vw;
 	position: relative;
 	nav-left: calc(30%-150px);
 	padding: 10px;
@@ -159,7 +149,7 @@ audio {
 }
 .parca > div {
 	position:absolute;
-	height: 800px;
+	height: 100%;
 	width: 35%;
 }
 @media (min-width:777px) {
@@ -168,11 +158,18 @@ audio {
 	}
 }
 
-@media (max-width: 2000px) and (min-width:1444px) {
-
+@media screen ( orientation: portrait ) 
+{
+	.navbar{
+		visibility: hidden;
+	}
+	.erik{
+		width: 100vw;
+		margin-left: 0vw;
+	}
 } 
 
-@media (max-width: 1444px) and (min-width:1025px) {
+/* @media (max-width: 1444px) and (min-width:1025px) {
 
 } 
 
@@ -184,14 +181,19 @@ audio {
 @media (max-width: 777px){
 
 }
-
+*/
 .hallo , .tschüs , .schlaf{
 	margin-left: 15%;
 }
 .hi , .auf , .traum{
 	margin-left: 50%;
 }
-
+h2{
+	color: var(--link);
+	border: 3px solid --nav-arkaplan;
+	border-radius: 10px;
+	font-size: 10vw;;
+}
 
 
 h1{
@@ -202,7 +204,7 @@ h1{
 }
 .baslık {
 	background-color: rgb(66 161 234 / 47%);
-	width: 100%;
+	width: 100vw;
 	position: flex;
 	padding: 5px;
 	display: flex;
@@ -226,6 +228,18 @@ nav.navbar a.sec{
 		visibility: hidden;
 	}
 	.erik{
-		width: 100%;
+		width: 100vw;
+		margin-left: 3vw;
 	}
 }
+
+@media screen and ( orientation: portrait ) 
+{
+	.navbar{
+		visibility: hidden;
+	}
+	.erik{
+		width: 100vw;
+		margin-left: 2.5vw;
+	}
+} 
