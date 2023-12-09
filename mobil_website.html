@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Website Interface</title>
+  <style>
+    :root {
+	--nav-arkaplan: #2d7ceb;
+	--arkaplan: #89c1f5;
+	--nav-arkaplan-alt: #9c6eff;
+	--link: #fdcbff;
+	--ara-bolge: #3A9BF5
+}
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:var(--arkaplan);
+      text-align: center;
+    }
+    .container {
+      position: relative;
+      max-width: ;
+      margin:0px;
+      background-color: var(--ara-bolge);
+    }
+    img {
+      width: 100%;
+    }
+    .button {
+      width: 100%;
+      padding-bottom: 100%;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .button img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+    .button:hover {
+      opacity: 0.25;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="sayfa" src="anasayfa.png">
+    <div class="grid">
+    <div class="button">
+      <a href="harf.html">
+        <img src="20210625_215512.jpg" alt="Button 1">
+      </a>
+    </div>
+    <div class="button">
+      <a href="sayı.html">
+        <img src="20210625_215512.jpg" alt="Button 2">
+      </a>
+    </div>
+    <div class="button">
+      <a href="selamlasma_vedalasma.html">
+        <img src="20210625_215512.jpg" alt="Button 3">
+      </a>
+    </div>
+    <div class="button">
+      <a href="aile.html">
+        <img src="20210625_215512.jpg" alt="Button 4">
+      </a>
+    </div>
+    <div class="button">
+      <a href="takvim.html">
+        <img src="20210625_215512.jpg" alt="Button 5">
+      </a>
+    </div>
+    <div class="button">
+      <a href="renk.html">
+        <img src="20210625_215512.jpg" alt="Button 6">
+      </a>
+    </div>
+    <div class="button">
+      <a href="okul.html">
+        <img src="20210625_215512.jpg" alt="Button 7">
+      </a>
+    </div>
+    <div class="button">
+      <a href="vucud.html">
+        <img src="20210625_215512.jpg" alt="Button 8">
+      </a>
+    </div>
+    <div class="button">
+      <a href="ulke.html">
+        <img src="20210625_215512.jpg" alt="Button 9">
+      </a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

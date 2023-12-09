@@ -31,8 +31,8 @@ body {
   }
 .erik {
 	background-color: var(--arkaplan);
-	height: min(75vh,75vw);
-	width: min(75vh,75vw);
+	height: min(90vh,90vw);
+	width: min(90vh,90vw);
 	position: absolute;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -58,8 +58,8 @@ body {
   }
 
 img{
-	height: min(75vh,75vw);
-	width: min(75vh,75vw);
+	height: 100%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
