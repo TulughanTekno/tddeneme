@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
-	min-width: 704px;
-	min-height: 567px;
 	padding: 0;
 	margin: 0;
 	background-color: var(--arkaplan);
@@ -32,8 +30,6 @@ body {
 
 .erik {
 	background-color: var(--arkaplan);
-	min-width: 554px;
-	min-height: 567px;
 	height: 80%;
 	position: relative;
 	padding: 20px;
@@ -301,22 +297,22 @@ audio {
 	height: 100%;
 }
 .ms_a{
-	margin-top: 4%;
-	margin-left: 4%;
+	margin-top: 11vw;
+	margin-left: 5vw;
 	z-index: 2;
 }
 .ms_b{
-	margin-top: 4%;
-	margin-left: 49%;
+	margin-top: 11vw;
+	margin-left: 45vw;
 	z-index: 2;
 }
 .ms_c{
-	margin-top: 35%;
-	margin-left: 4%;
+	margin-top: 65.5vw;
+	margin-left: 5vw;
 }
 .ms_d{
-	margin-top: 35%;
-	margin-left: 49%;
+	margin-top: 65.5vw;
+	margin-left:45vw;
 }
 .div_tage > div{
 	margin-left:35px;
@@ -404,5 +400,36 @@ nav.navbar a.sec{
 	}
 	.erik > div {
 		nav-left:none;
+	}
+}
+@media (orientation: portrait){
+	.div_tage{
+		padding: 0vw;
+	}
+	.tage_poto{
+		width: 78vw;
+		min-width: 0vw;
+	}
+	.kutustili{
+		font-size: 52px;
+	}
+}
+@media (orientation: portrait) {
+	.navbar{
+		visibility: hidden;
+	}
+	.bölge {
+		width: 100vw ;
+		margin-left: 0vw;
+	}
+	.grossfamilie_foto > div {
+		width: 95vw ;
+		margin-left: 0vw;
+	}
+	.erik{
+		margin: 0vw;
+	}
+	.erik > div {
+		width: 95vw;
 	}
 }

@@ -45,13 +45,15 @@ nav.navbar {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	width: 150px;
+	min-width: 150px;
+	width: 13vw;
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--nav-arkaplan);
 	padding: 20px;
 	overflow-wrap: normal;
 	font-size: 24px;
+	z-index: 3;
 }
 
 .sd{
@@ -600,3 +602,12 @@ nav.navbar a.sec{
 		width: 100%;
 	}
 }
+@media (orientation: portrait){
+	.navbar{
+		visibility: hidden;
+	}
+	.erik{
+		width: 100vw;
+		margin-left: 0vw;
+	}
+} 

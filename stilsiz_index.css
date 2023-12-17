@@ -190,3 +190,12 @@ h1{
 	}
 	}
 	*/
+	@media (orientation: portrait) {
+		.navbar{
+			visibility: hidden;
+		}
+		.erik{
+			width: 100vw;
+			margin-left: 0vw;
+		}
+	} 

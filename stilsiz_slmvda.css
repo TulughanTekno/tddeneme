@@ -25,7 +25,7 @@ body {
 
 .erik {
 	width: 83vw;
-	margin-left: 20vw;
+	margin-left: 15vw;
 	background-color: var(--arkaplan);
 	height: 80%;
 	position: relative;
@@ -158,8 +158,7 @@ audio {
 	}
 }
 
-@media screen ( orientation: portrait ) 
-{
+@media (orientation: portrait){
 	.navbar{
 		visibility: hidden;
 	}
@@ -192,7 +191,9 @@ h2{
 	color: var(--link);
 	border: 3px solid --nav-arkaplan;
 	border-radius: 10px;
-	font-size: 10vw;;
+	font-size: 10vw;
+	font-size:80px;
+
 }
 
 
@@ -200,7 +201,7 @@ h1{
 	color: var(--link);
 	border: 3px solid --nav-arkaplan;
 	border-radius: 10px;
-	font-size:60px;
+	font-size:80px;
 }
 .baslık {
 	background-color: rgb(66 161 234 / 47%);

@@ -248,3 +248,12 @@ nav.navbar a.sec{
 		width: 100%;
 	}
 }
+@media (orientation: portrait) {
+	.navbar{
+		visibility: hidden;
+	}
+	.erik{
+		width: 100vw;
+		margin-left: 0vw;
+	}
+} 
