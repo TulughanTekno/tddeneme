@@ -31,3 +31,4 @@ Genel:
 	Oyunlar ve Seviyelere tıklayınca "Geliştirme Aşamasında" yazabilir.
 	Yerel çizim sayısı arttırılabilir.
 	Sesler otomatik olarak yüklenebilir.
+	Telefon modunda navbar eklenebilir.
