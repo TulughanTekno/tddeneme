@@ -1,0 +1,33 @@
+Harfler: 
+	Harfe tıklayınca söylesin.
+	Nesneye tıklayınca adını söylesin.
+	Alfabe videosunu çıkaralım.
+
+Sayılar: 
+	Sayıya tıklayınca söylesin.
+	Videoyu çıkaralım.
+
+Renkler:
+	Renge tıklayınca adını söylesin.
+	Nesneye tıklayınca cümleyi belirtsin.
+
+Aile: 
+	Portreye tıklayınca ismini söylesin.
+	Fotoğrafta isme tıklayınca cümleyi yazsın.
+
+Takvim:
+	Ayın üzerine tıklayınca ismini söylesin.
+
+Ülkeler: 
+	Ülkeye tıklayınca "Deutschland sprechen Deutsch." desin.
+
+Okul Eşyaları:
+	Eşyaya tıklayınca ismini söylesin.
+
+Genel:
+	Logo büyütülebilir.
+	Navbara en üste çık eklenebilir. "Şu anki ekstralar o işe yarıyor."
+	Krediler kısmı gelebilir.
+	Oyunlar ve Seviyelere tıklayınca "Geliştirme Aşamasında" yazabilir.
+	Yerel çizim sayısı arttırılabilir.
+	Sesler otomatik olarak yüklenebilir.

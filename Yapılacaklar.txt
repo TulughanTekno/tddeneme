@@ -1,0 +1,11 @@
+Aile:
+	Fotoğrafta isimlerin yerlerini kontrol et.
+
+Takvim:
+	Aylar ses kaydı.
+	Mevsimler ses kaydı.
+	Günler ses kaydı.
+
+Vücut:
+	İsimlerin yerlerini kontrol et.
+
