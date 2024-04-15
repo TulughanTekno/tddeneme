@@ -63,6 +63,16 @@ nav.navbar {
 	font-size: 24px;
 }
 
+.mobil_navbar {
+	background-color: var(--nav-arkaplan);
+	width: 100%;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	visibility: hidden;
+}
+
 @media screen and (max-width: 1155px) {
 	.erik {
 		width: calc(100% - 150px);
@@ -71,7 +81,7 @@ nav.navbar {
 .sd{
 	font-size: 20px;
 }
-nav.navbar a {
+nav a {
 	margin-bottom: 2vh;
 	text-decoration: none;
 	color: var(--link);
@@ -79,7 +89,7 @@ nav.navbar a {
 	border-radius: 10px;
 	
 }
-nav.navbar a:hover{
+nav a:hover{
 	transition: 0.8s;
 	color:whitesmoke;
 }
@@ -189,7 +199,7 @@ audio {
 	height: 35px;
 }
 
-nav.navbar a.sec{
+nav a.sec{
 	background-color: #276ccc ;
 	color: #f0eba3 ;
 }
@@ -236,6 +246,12 @@ h1{
 	}
 	.erik{
 		width: 100vw;
-		margin-left: 0vw;
+		margin-top: 172px;
+		border-radius: 75px;
 	}
+	.mobil_navbar{
+		visibility: visible;
+		position: relative;
+	}
+
 } 
