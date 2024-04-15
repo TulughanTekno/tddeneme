@@ -632,5 +632,12 @@ nav.navbar a.sec{
 	}
 	.erik{
 		margin: 0vw;
+		width: 100vw;
+		margin-top: 172px;
+		border-radius: 75px;
+	}
+	.mobil_navbar{
+		visibility: visible;
+		position: relative;
 	}
 } 

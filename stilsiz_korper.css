@@ -594,6 +594,7 @@ nav.navbar a.sec{
 	background-color: #276ccc ;
 	color: #f0eba3 ;
 }
+
 @media screen and (max-width: 450px) and (max-height: 950px ){
 	.navbar{
 		visibility: hidden;
@@ -602,12 +603,19 @@ nav.navbar a.sec{
 		width: 100%;
 	}
 }
-@media (orientation: portrait){
+@media (orientation: portrait) {
 	.navbar{
 		visibility: hidden;
 	}
 	.erik{
 		width: 100vw;
-		margin-left: 0vw;
+		margin-top: 172px;
+		border-radius: 75px;
 	}
+	.mobil_navbar{
+		visibility: visible;
+		position: relative;
+	}
+
+
 } 
