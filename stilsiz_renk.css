@@ -89,6 +89,11 @@ nav a {
 	border-radius: 10px;
 	
 }
+
+.navbar a{
+	font-size: 1.7vw;
+}
+
 nav a:hover{
 	transition: 0.8s;
 	color:whitesmoke;
@@ -232,6 +237,13 @@ h1{
 	border-radius: 50px;
 	
 }
+
+nav img {
+	width: 95%;
+	height: auto;
+	aspect-ratio: 1;
+}
+
 @media screen and (max-width: 450px) and (max-height: 950px ){
 	.navbar{
 		visibility: hidden;
@@ -253,5 +265,6 @@ h1{
 		visibility: visible;
 		position: relative;
 	}
+
 
 } 
