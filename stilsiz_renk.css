@@ -72,15 +72,6 @@ nav.navbar {
 	justify-content: center;
 	visibility: hidden;
 }
-
-@media screen and (max-width: 1155px) {
-	.erik {
-		width: calc(100% - 150px);
-	}
-}
-.sd{
-	font-size: 20px;
-}
 nav a {
 	margin-bottom: 2vh;
 	text-decoration: none;
@@ -93,6 +84,28 @@ nav a {
 .navbar a{
 	font-size: 1.7vw;
 }
+
+nav a.sec{
+	background-color: #276ccc93 ;
+	padding: 0.35vw;
+	color: #f5efa1e5 ;
+	border-radius: 77px;
+}
+nav img {
+	width: 95%;
+	height: auto;
+	aspect-ratio: 1;
+}
+
+@media screen and (max-width: 1155px) {
+	.erik {
+		width: calc(100% - 150px);
+	}
+}
+.sd{
+	font-size: 20px;
+}
+
 
 nav a:hover{
 	transition: 0.8s;
@@ -187,8 +200,6 @@ audio {
 	display: none;
 }
 
-
-
 .grup > .nezles > .alt {
 	border: 3px solid --ara-bolge;
 	border-radius: 10px;
@@ -204,12 +215,6 @@ audio {
 	height: 35px;
 }
 
-nav a.sec{
-	background-color: #276ccc93 ;
-	padding: 0.35vw;
-	color: #f5efa1e5 ;
-	border-radius: 77px;
-}
 .baslık{
 	background-color: rgb(66 161 234 / 47%);
 	width: 100%;
@@ -240,11 +245,7 @@ h1{
 	
 }
 
-nav img {
-	width: 95%;
-	height: auto;
-	aspect-ratio: 1;
-}
+
 
 @media screen and (max-width: 450px) and (max-height: 950px ){
 	.navbar{
