@@ -205,8 +205,10 @@ audio {
 }
 
 nav a.sec{
-	background-color: #276ccc ;
-	color: #f0eba3 ;
+	background-color: #276ccc93 ;
+	padding: 0.35vw;
+	color: #f5efa1e5 ;
+	border-radius: 77px;
 }
 .baslık{
 	background-color: rgb(66 161 234 / 47%);
