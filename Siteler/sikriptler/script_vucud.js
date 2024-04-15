@@ -41,66 +41,66 @@ elementvn.addEventListener("click", vn);
 
 function va() {
   document.getElementById("demo_g").innerHTML = 'das Haar';
-  playAudio("seskorper/das haar.mp3")
+  playAudio("Sesler/seskorper/das haar.mp3")
 }
 
 function vb() {
   document.getElementById("demo_g").innerHTML = 'die Stirn';
-  playAudio("seskorper/die stirn.mp3")
+  playAudio("Sesler/seskorper/die stirn.mp3")
 }
 
 function vc() {
     document.getElementById("demo_g").innerHTML = 'der Mund';
-    playAudio("seskorper/der mund.mp3")
+    playAudio("Sesler/seskorper/der mund.mp3")
   }
   
 function vd() {
     document.getElementById("demo_g").innerHTML = 'der Kopft';
-    playAudio("seskorper/der kopf.mp3")
+    playAudio("Sesler/seskorper/der kopf.mp3")
   }
 
 function ve() {
     document.getElementById("demo_g").innerHTML = 'die Schulter';
-    playAudio("seskorper/die shulter.mp3")
+    playAudio("Sesler/seskorper/die shulter.mp3")
   }
   
   function vf() {
     document.getElementById("demo_g").innerHTML = 'der Ellbogen';
-    playAudio("seskorper/der ellbogen.mp3")
+    playAudio("Sesler/seskorper/der ellbogen.mp3")
   }
   
   function vg() {
       document.getElementById("demo_g").innerHTML = 'der Arm';
-      playAudio("seskorper/der arm.mp3")
+      playAudio("Sesler/seskorper/der arm.mp3")
     }
     
     function vh() {
       document.getElementById("demo_g").innerHTML = 'das Handgelenk';
-      playAudio("seskorper/das handgelenk.mp3")
+      playAudio("Sesler/seskorper/das handgelenk.mp3")
     }
   
     function vi() {
       document.getElementById("demo_g").innerHTML = 'die Hand';
-      playAudio("seskorper/die hand.mp3")
+      playAudio("Sesler/seskorper/die hand.mp3")
     }
     
     function vj() {
       document.getElementById("demo_g").innerHTML = 'der Bauch';
-      playAudio("seskorper/der bauh.mp3")
+      playAudio("Sesler/seskorper/der bauh.mp3")
     }
     
     function vk() {
         document.getElementById("demo_g").innerHTML = 'das Knie';
-        playAudio("seskorper/das knie.mp3")
+        playAudio("Sesler/seskorper/das knie.mp3")
       }
       
       function vl() {
         document.getElementById("demo_g").innerHTML = 'das Fußgelenk';
-        playAudio("seskorper/das fussgelenk.mp3")
+        playAudio("Sesler/seskorper/das fussgelenk.mp3")
       }
   function vn() {
     document.getElementById("demo_g").innerHTML = 'der Fuß';
-    playAudio("seskorper/der Fuß.mp3")
+    playAudio("Sesler/seskorper/der Fuß.mp3")
  }
       
  const elementya = document.getElementById("y_a");
@@ -134,47 +134,47 @@ function ve() {
  
  function ya() {
   document.getElementById("demo_y").innerHTML = 'das Haar';
-  playAudio("seskorper/das haar.mp3")
+  playAudio("Sesler/seskorper/das haar.mp3")
 }
 
 function yb() {
   document.getElementById("demo_y").innerHTML = 'das Ohr';
-  playAudio("seskorper/das ohr.mp3")
+  playAudio("Sesler/seskorper/das ohr.mp3")
 }
 
 function yc() {
     document.getElementById("demo_y").innerHTML = 'das Auge';
-    playAudio("seskorper/das auge.mp3")
+    playAudio("Sesler/seskorper/das auge.mp3")
   }
   
 function yd() {
     document.getElementById("demo_y").innerHTML = 'die Augenbraue';
-    playAudio("seskorper/die augenbraue.mp3")
+    playAudio("Sesler/seskorper/die augenbraue.mp3")
   }
 
 function ye() {
     document.getElementById("demo_y").innerHTML = 'die Nase';
-    playAudio("seskorper/die nase.mp3")
+    playAudio("Sesler/seskorper/die nase.mp3")
   }
   
   function yf() {
     document.getElementById("demo_y").innerHTML = 'die Wange';
-    playAudio("seskorper/die wange.mp3")
+    playAudio("Sesler/seskorper/die wange.mp3")
   }
   
   function yg() {
       document.getElementById("demo_y").innerHTML = 'der Zahn';
-      playAudio("seskorper/der zahn.mp3")
+      playAudio("Sesler/seskorper/der zahn.mp3")
     }
     
     function yh() {
       document.getElementById("demo_y").innerHTML = 'die Lippe';
-      playAudio("seskorper/die lippe.mp3")
+      playAudio("Sesler/seskorper/die lippe.mp3")
     }
   
     function yi() {
       document.getElementById("demo_y").innerHTML = 'die Stirn';
-      playAudio("seskorper/die stirn.mp3")
+      playAudio("Sesler/seskorper/die stirn.mp3")
     }
     
 
@@ -206,32 +206,32 @@ function ye() {
 
     function ea() {
       document.getElementById("demo_e").innerHTML = 'der Kleinefinger';
-      playAudio("sesparmak/serçe.mp3")
+      playAudio("Sesler/sesparmak/serçe.mp3")
     }
     
     function eb() {
       document.getElementById("demo_e").innerHTML = 'der Ringfinger';
-      playAudio("sesparmak/yüzük.mp3")
+      playAudio("Sesler/sesparmak/yüzük.mp3")
     }
     
     function ec() {
         document.getElementById("demo_e").innerHTML = 'der Mittelfinger';
-        playAudio("sesparmak/orta.mp3")
+        playAudio("Sesler/sesparmak/orta.mp3")
       }
       
     function ed() {
         document.getElementById("demo_e").innerHTML = 'der Zeigefinger';
-        playAudio("sesparmak/işaret.mp3")
+        playAudio("Sesler/sesparmak/işaret.mp3")
       }
     
     function ef() {
         document.getElementById("demo_e").innerHTML = 'der Nagel';
-        playAudio("seskorper/der nagel.mp3")
+        playAudio("Sesler/seskorper/der nagel.mp3")
       }
 
       function ee() {
         document.getElementById("demo_e").innerHTML = 'der Daumen';
-        playAudio("sesparmak/der daumen.mp3")
+        playAudio("Sesler/sesparmak/der daumen.mp3")
       }
 
   function playAudio(url) {
