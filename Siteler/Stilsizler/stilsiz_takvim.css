@@ -297,22 +297,22 @@ audio {
 	height: 100%;
 }
 .ms_a{
-	margin-top: 11vw;
-	margin-left: 5vw;
+	margin-top: 2vw;
+	margin-left: 3.3vw;
 	z-index: 2;
 }
 .ms_b{
-	margin-top: 11vw;
-	margin-left: 45vw;
+	margin-top: 2vw;
+	margin-left: 33vw;
 	z-index: 2;
 }
 .ms_c{
-	margin-top: 65.5vw;
-	margin-left: 5vw;
+	margin-top: 24vw;
+	margin-left: 3.3vw;
 }
 .ms_d{
-	margin-top: 65.5vw;
-	margin-left:45vw;
+	margin-top: 24vw;
+	margin-left:33vw;
 }
 .div_tage > div{
 	margin-left:35px;
