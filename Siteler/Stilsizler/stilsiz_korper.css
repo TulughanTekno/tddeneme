@@ -446,14 +446,14 @@ audio {
 	z-index: 1;
 }
 .y_g{
-	margin-top: 53%;
+	margin-top: 32.5vw;
 	margin-left: 48%;
 	height: 20px;
  	width: 120px;
 	z-index: 2;
 }
 .y_h{
-	margin-top: 51%;
+	margin-top: 32vw;
 	margin-left: 46%;
 	height: 60px;
  	width: 150px;
@@ -466,23 +466,6 @@ audio {
  	width: 300px;
 	z-index: 2;
 }
-.y_j{
-	margin-top: 675px;
-	margin-left: 400px;
-	height: 30px;
- 	width: 100px;
-	z-index: 1;
-}
-.y_k{
-	margin-top: 675px;
-	margin-left: 400px;
-	height: 30px;
- 	width: 100px;
-	z-index: 1;
-}
-
-
-
 
 
 .e_a{
