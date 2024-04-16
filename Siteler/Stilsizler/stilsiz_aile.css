@@ -274,44 +274,44 @@ audio {
 }
 
 @media (max-width: 2000px) and (min-width:1444px) {
-	.a{ left: 280px ;
-		margin-top: 140px;
+	.a{ left: 12vw ;
+		margin-top: 5vw;
 	}
-	.b{ left: 400px ;
-		margin-top: 190px;
+	.b{ left: 18vw ;
+		margin-top: 8vw;
 	}
-	.c{left: 540px ;
-		margin-top: 222px;
+	.c{left: 24.5vw ;
+		margin-top: 9vw;
 	}
-	.d{ left: 650px ;
-		margin-top: 135px;
+	.d{ left: 28.7vw ;
+		margin-top: 5vw;
 	}
-	.e{ left: 725px ;
-		margin-top: 165px;
+	.e{ left: 33vw ;
+		margin-top:7vw;
 	}
-	.f{ left: 820px ;
-		margin-top: 190px;
+	.f{ left: 37.5vw ;
+		margin-top: 7.5vw;
 	}
-	.g{ left: 930px ;
-		margin-top: 120px;
+	.g{ left: 41.5vw ;
+		margin-top: 5vw;
 	}
-	.h{ left: 1000px ;
-		margin-top: 220px;
+	.h{ left: 45vw ;
+		margin-top: 10vw;
 	}
-	.j{ left: 1111px ;
-		margin-top: 220px;
+	.j{ left: 50vw ;
+		margin-top: 9.9vw;
 	}
-	.k{ left: 1200px ;
-		margin-top: 110px;
+	.k{ left: 54vw ;
+		margin-top: 4.2vw;
 	}
-	.l{ left: 519px ;
-		margin-top: 615px;
+	.l{ left: 24vw ;
+		margin-top: 27vw;
 	}
-	.m{ left: 712px ;
-		margin-top: 595px;
+	.m{ left: 32vw ;
+		margin-top: 25vw;
 	}
-	.n{ left: 850px ;
-		margin-top: 590px;
+	.n{ left: 38.7vw ;
+		margin-top: 25.9vw;
 	}
 
 	.erik > div{
@@ -325,22 +325,23 @@ audio {
 	}
 
 	.erik > div.b{
-		width: 140px;
+		width: 7vw;
 	}
 	
 	.erik > div.c{
-		width: 115px;
-		height: 130px;
+		width: 5.2vw;
+		height: 6.5vw;
 	}
 
 	.erik > div.d{
-		width: 115px;
+		width: 4.9vw;
+		height: 7.0vw;
 	}
 	.erik > div.e{
-		width: 108px;
+		width: 4.9vw;
 	}
 	.erik > div.f{
-		width: 115px;
+		width: 4.6vw;
 	}
 	.erik > div.g{
 		width: 100px;
