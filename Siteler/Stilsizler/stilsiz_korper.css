@@ -107,7 +107,6 @@ nav.navbar > img {
 
 }
 
-
 audio {
 	width: 165px;
 	height: 45px;
@@ -212,22 +211,6 @@ audio {
 	}
 }
 
-@media (max-width: 2000px) and (min-width:1444px) {
-
-} 
-
-@media (max-width: 1444px) and (min-width:1025px) {
-
-} 
-
-
-@media (max-width: 1024px) and (min-width:778px) {
-
-}
-
-@media (max-width: 777px){
-
-}
 
 .v_tık > div {
 	position: absolute;

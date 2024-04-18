@@ -248,10 +248,6 @@ audio {
 	
 }
 
-
-
-
-
 .aile {
 	height: min-content;
 	width: 80%;
@@ -264,7 +260,6 @@ audio {
 	min-width: 512px;
 	z-index: 0;
 }
-
 
 
 @media (min-width:777px) {
@@ -611,9 +606,6 @@ nav.navbar a.sec{
 	color: #f0eba3 ;
 }
 
-
-
-
 nav.navbar {
 	display: flex;
 	flex-direction: column;
@@ -663,18 +655,6 @@ nav img {
 	height: auto;
 	aspect-ratio: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
